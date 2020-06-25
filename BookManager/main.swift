@@ -8,5 +8,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+var book1 = Book(name: "햄릿", genre: "희극", author: "세익스피어")
+book1.bookPrint()
