@@ -15,5 +15,6 @@ struct Book {
         print("Name : \(name)")
         print("Name : \(genre)")
         print("Name : \(author)")
+        print("-------------")
     }
 }
