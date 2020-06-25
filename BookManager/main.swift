@@ -22,3 +22,13 @@ myBookManager.registerBook(bookObject: book3)
 
 //print(myBookManager.showAllBooks())
 //print("number of books: \(myBookManager.countBooks())")
+//var searchResult = myBookManager.searchBook(name: "햄릿")
+//if let srcRst = searchResult {
+//    print("\(srcRst)을 찾았습니다")
+//} else {
+//    print("찾으시는 책이 없네요")
+//}
+
+myBookManager.removeBook(name: "죄와벌")
+print(myBookManager.showAllBooks())
+print(myBookManager.countBooks())
